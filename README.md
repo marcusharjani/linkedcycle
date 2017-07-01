@@ -16,11 +16,11 @@ The implication here is that the Nodes of an unordered list may lead to next Nod
 
 ```a[x]```
 
-Where a is `a` list and `x` is the index of a specific element in that list. 
+Where `a` is a list and `x` is the index of a specific element in that list. 
 
 ## Challenge
 
-There are a few concepts to bear in mind for this challenge. First, we should be mindful of the structure of a linked list (e.g. that a linked list is made of Nodes which have a data value and position in the list, whether head or not). Second, how we might traverse a linked list. Third, when traversing the linked list how we might compare current Nodes to past Nodes and assess whether we have detected a cycle.
+There are a few concepts to bear in mind for this challenge. First, we should be mindful of the structure of a linked list (e.g. that a linked list is made of Nodes which have a data value and in some way link to the next Node, and whether head or not). Second, how we might traverse a linked list. Third, when traversing the linked list how we might compare current Nodes to past Nodes and assess whether we have detected a cycle.
 
 ## Solution
 
@@ -39,7 +39,7 @@ A Node is defined as:
 """
 ```
 
-Our class Node contains a constructor establishign an empty Node and so an empty list (e.g. data value and next node as None). 
+Our class Node contains a constructor establishing an empty Node and so an empty list (e.g. data value and next node as None). 
 
 We know that we will be given a series of lists as tests and we are given the start of a cycle for detecting a cycle:
 
